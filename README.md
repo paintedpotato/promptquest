@@ -21,7 +21,7 @@ Prompt Quest follows the story of ARIA, an AI character who needs help completin
 ### Step 2: Upload Files
 1. Upload these files to your repository:
    - `index.html`
-   - `prompt_quest.jsx`
+   - `prompt_quest.js`
    - `README.md`
 
 ### Step 3: Enable GitHub Pages
@@ -44,9 +44,9 @@ To test locally before deploying:
 2. The game should work immediately (requires internet for CDN libraries)
 
 ## Technologies Used
-- React 18
+- React 18 (pure JavaScript, no build step required)
 - Tailwind CSS
-- Lucide React Icons
+- Custom SVG icons
 
 ## License
 Feel free to use and modify for educational purposes!

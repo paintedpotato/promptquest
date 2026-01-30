@@ -405,5 +405,10 @@ const PromptQuest = () => {
 };
 
 // Initialize the app
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(React.createElement(PromptQuest));
+document.addEventListener('DOMContentLoaded', function() {
+  const rootElement = document.getElementById('root');
+  if (rootElement && typeof React !== 'undefined' && typeof ReactDOM !== 'undefined') {
+    const root = ReactDOM.createRoot(rootElement);
+    root.render(React.createElement(PromptQuest));
+  }
+});

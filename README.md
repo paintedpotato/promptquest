@@ -22,6 +22,7 @@ Prompt Quest follows the story of ARIA, an AI character who needs help completin
 1. Upload these files to your repository:
    - `index.html`
    - `prompt_quest.js`
+   - `styles.css`
    - `README.md`
 
 ### Step 3: Enable GitHub Pages
@@ -45,8 +46,9 @@ To test locally before deploying:
 
 ## Technologies Used
 - React 18 (pure JavaScript, no build step required)
-- Tailwind CSS
+- Custom CSS (no external frameworks)
 - Custom SVG icons
+- No CSP issues - works perfectly on GitHub Pages!
 
 ## License
 Feel free to use and modify for educational purposes!
